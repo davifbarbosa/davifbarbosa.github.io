@@ -1,0 +1,38 @@
+
+p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.profession-name{
+    color: blue;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+    padding: 10px 20px 40px 30px;
+    background-color: red;
+}
+
+.imagem-Davi{
+    width: 247.09px;
+    height: 246.01px;
+    border-radius: 50%;
+}
+
+.info-container{
+    display: flex; /*forma de organizar a disposição dos conteúdos na div*/
+    flex-direction: row;
+}
+.phone-container{
+    text-align: right;
+    padding-right: 20px;
+}
+.email-container{
+    text-align: left;    
+}
+.personal-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
